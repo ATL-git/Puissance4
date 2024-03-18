@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Puissance 4</h1>
+    </header>
+    <main>
+        <div class="option">
+            <p class="joueur">joueur vs joueur</p>
+            <p class="bot">joueur vs BOT</p>
+        </div>
+        <div id="gameContainer">
+            <div id="tabContainer"></div>
+           
+            <div class="score">
+                <p class="yellowscore">Score pion jaune = 0 </p>
+                <p class="redscore">Score pion rouge = 0 </p>
+                <p id="resetScore" onclick="resetScore()">reset score</p>
+            </div>
+        </div>
+        <p class="win"></p>
+        <p id="restart" onclick="restart()">recommencer</p>
+        
+
+    </main>
+    <footer></footer>
+    <script src="/assets/javascript/script.js"></script>
+</body>
+
+</html>
